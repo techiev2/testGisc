@@ -1,0 +1,6 @@
+*~
+logs/
+*.py[c|o]
+.project
+.pydevproject
+.settings/
