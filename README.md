@@ -10,5 +10,4 @@ repositories on GitHub. e.g.
     a repo. How does the push/watch event of a highly popular user affect
     the growth curve of a GitHub repository.
 
-Refer docs inside the docs directory for details related to usage. Help
-and suggestions are appreciated.
+Refer [docs](docs/) for details related to usage. Suggestions appreciated.
