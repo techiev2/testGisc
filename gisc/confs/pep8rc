@@ -1,0 +1,4 @@
+; Pep8 configuration file.
+[pep8]
+; continuation line missing indentation or outdented
+ignore=E122
