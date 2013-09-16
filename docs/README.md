@@ -7,20 +7,21 @@
 
 ###"docs" Files###
 + ```sample_jsons/*``` :
-  The different JSON files template the respective event details
-  maintained by GitHub.
+  Template JSON format maintained by GitHub for the event details.
++ ```sample_plots/*``` :
+  Plots for a few repository using the API. One of them is language
+  specifc(Java).
 + ```UD_CONCEPT``` :
   Details the concept of the GISC APIs, esp. User Dynamics, and
   its implementation algorithm.
 + ```UD_USAGE``` :
-  Details about the User Dynamics scripts of significance from the
-  execution point of view and their usage.
+  Usage instruction of the GISC APIs, esp. User Dynamics scripts.
       
 ###"gisc" Files###
 + ```confs/*``` : Configuration for logs, pep8 and pylint.
 + ```database.py``` : APIs for database operations.
 + ```errors.py``` : Exception classes maintained here.
-+ ```gisc_msgs.py``` : User interface messages are maintained and
++ ```gisc_msgs.py``` : Messages for user interface are maintained and
   could be edited from here.
 + ```gisc.py``` : The APIs to manipulate and plot the GISC events.
 + ```log.py``` : Configure logging instances.
