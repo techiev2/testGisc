@@ -12,8 +12,7 @@ FOLLOW_COLL = 'FollowEvent'
 WATCH_COLL = 'WatchEvent'
 # Database configuration statement.
 DB_CONFIG_STMNT = 'Configured database :- %s'
-# Archive populate statement:
-ARCH_POPULATE_STMNT = '%d archives have been populated.'
+
 # Default temporary location to store *.gz JSON files.
 TEMP_LOCATION = '/tmp/gisc_jsons'
 # Events related to popularity of a repository.
