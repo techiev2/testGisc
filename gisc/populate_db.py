@@ -133,7 +133,7 @@ def populate(src_path, events_to_populate=gisc_msgs.POPULARITY_EVENTS):
                 db_obj.coll(k).insert(v)
                 all_coll.insert(v)
         if (i + 1) % 10 == 0:
-            CLOG.info('%d archives has been populated.' % (i + 1,))
+            CLOG.info(gisc_msgs.ARCH_POPULATE_STMNT % (i + 1,))
     # W0631: Using possibly undefined loop variable
     # pylint: disable=W0631
     CLOG.info('Total archives populated :- %d' % (i + 1,))

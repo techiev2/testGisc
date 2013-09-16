@@ -259,6 +259,8 @@ def high_profile_user_watch_effect(lang=None, count=None, plot_dir=None,
         is deleted and created again.
         - logs_dir : str : Path where log file is to be generated.
         - img_fmt : str : Desired plot file extension.
+
+    @todo: Add check for Database existence before performing the queries.
     """
     set_logs_dir(logs_dir)
 #     user_watch_impact = {}
